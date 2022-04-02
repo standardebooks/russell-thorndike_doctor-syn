@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <package xmlns="http://www.idpf.org/2007/opf" dir="ltr" prefix="se: https://standardebooks.org/vocab/1.0" unique-identifier="uid" version="3.0" xml:lang="en-US">
 	<metadata xmlns:dc="http://purl.org/dc/elements/1.1/">
-		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/russell-thorndyke/doctor-syn</dc:identifier>
+		<dc:identifier id="uid">url:https://standardebooks.org/ebooks/russell-thorndike/doctor-syn</dc:identifier>
 		<dc:date>1900-01-01T00:00:00Z</dc:date>
 		<meta property="dcterms:modified">1900-01-01T00:00:00Z</meta>
 		<dc:rights>The source text and artwork in this ebook edition are believed to be in the U.S. public domain. This ebook edition is released under the terms in the CC0 1.0 Universal Public Domain Dedication, available at https://creativecommons.org/publicdomain/zero/1.0/. For full license information see the Uncopyright file included at the end of this ebook.</dc:rights>
@@ -28,43 +28,55 @@
 		<link href="onix.xml" media-type="application/xml" properties="onix" rel="record"/>
 		<dc:title id="title">Doctor Syn</dc:title>
 		<meta property="file-as" refines="#title">Doctor Syn</meta>
-		<dc:subject id="subject-1">SUBJECT_1</dc:subject>
-		<dc:subject id="subject-2">SUBJECT_2</dc:subject>
+		<meta property="title-type" refines="#title">main</meta>
+		<dc:title id="subtitle">A Smuggler Tale of the Romney Marsh</dc:title>
+		<meta property="file-as" refines="#subtitle">Smuggler Tale of the Romney Marsh, A</meta>
+		<meta property="title-type" refines="#subtitle">subtitle</meta>
+		<dc:title id="fulltitle">Doctor Syn: A Smuggler Tale of the Romney Marsh</dc:title>
+		<meta property="file-as" refines="#fulltitle">Doctor Syn</meta>
+		<meta property="title-type" refines="#fulltitle">extended</meta>
+		<dc:subject id="subject-1">Smuggling -- Fiction</dc:subject>
+		<dc:subject id="subject-2">Smugglers -- Fiction</dc:subject>
+		<dc:subject id="subject-3">Romney Marsh (England: Marsh) -- Fiction</dc:subject>
 		<meta property="authority" refines="#subject-1">LCSH</meta>
-		<meta property="term" refines="#subject-1">LCSH_ID_1</meta>
+		<meta property="term" refines="#subject-1">sh56025896</meta>
 		<meta property="authority" refines="#subject-2">LCSH</meta>
-		<meta property="term" refines="#subject-2">LCSH_ID_2</meta>
-		<meta property="se:subject">TAG</meta>
+		<meta property="term" refines="#subject-2">sh56025696</meta>
+		<meta property="authority" refines="#subject-3">LCSH</meta>
+		<meta property="term" refines="#subject-3">sh54300990</meta>
+		<meta property="se:subject">Fiction</meta>
+		<meta property="se:subject">Adventure</meta>
 		<dc:description id="description">DESCRIPTION</dc:description>
 		<meta id="long-description" property="se:long-description" refines="#description">
 			LONG_DESCRIPTION
 		</meta>
-		<dc:language>LANG</dc:language>
-		<dc:source>PG_URL</dc:source>
-		<dc:source>IA_URL</dc:source>
+		<dc:language>en-GB</dc:language>
+		<dc:source>https://en.wikisource.org/wiki/Doctor_Syn</dc:source>
+		<dc:source>https://archive.org/details/doctorsynsmuggle00thor</dc:source>
 		<meta property="se:production-notes">PRODUCTION_NOTES</meta>
 		<meta property="se:word-count">WORD_COUNT</meta>
 		<meta property="se:reading-ease.flesch">READING_EASE</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Doctor_Syn</meta>
-		<meta property="se:url.vcs.github">https://github.com/standardebooks/russell-thorndyke_doctor-syn</meta>
-		<dc:creator id="author">Russell Thorndyke</dc:creator>
-		<meta property="file-as" refines="#author">Thorndyke, Russell</meta>
-		<meta property="se:name.person.full-name" refines="#author">CONTRIBUTOR_FULL_NAME</meta>
-		<meta property="se:url.encyclopedia.wikipedia" refines="#author">CONTRIBUTOR_WIKI_URL</meta>
-		<meta property="se:url.authority.nacoaf" refines="#author">CONTRIBUTOR_NACOAF_URI</meta>
+		<meta property="se:url.vcs.github">https://github.com/standardebooks/russell-thorndike_doctor-syn</meta>
+		<dc:creator id="author">Russell Thorndike</dc:creator>
+		<meta property="file-as" refines="#author">Thorndike, Russell</meta>
+		<meta property="se:name.person.full-name" refines="#author">Arthur Russell Thorndike</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#author">https://en.wikipedia.org/wiki/Russell_Thorndike</meta>
+		<meta property="se:url.authority.nacoaf" refines="#author">https://id.loc.gov/authorities/names/no96026845</meta>
 		<meta property="role" refines="#author" scheme="marc:relators">aut</meta>
 		<dc:contributor id="artist">COVER_ARTIST</dc:contributor>
 		<meta property="file-as" refines="#artist">COVER_ARTIST_SORT</meta>
 		<meta property="se:url.encyclopedia.wikipedia" refines="#artist">COVER_ARTIST_WIKI_URL</meta>
 		<meta property="se:url.authority.nacoaf" refines="#artist">COVER_ARTIST_NACOAF_URI</meta>
 		<meta property="role" refines="#artist" scheme="marc:relators">art</meta>
-		<dc:contributor id="transcriber-1">TRANSCRIBER</dc:contributor>
-		<meta property="file-as" refines="#transcriber-1">TRANSCRIBER_SORT</meta>
-		<meta property="se:url.homepage" refines="#transcriber-1">TRANSCRIBER_URL</meta>
+		<dc:contributor id="transcriber-1">Wikisource</dc:contributor>
+		<meta property="file-as" refines="#transcriber-1">Wikisource</meta>
+		<meta property="se:url.homepage" refines="#transcriber-1">https://en.wikisource.org</meta>
+		<meta property="se:url.encyclopedia.wikipedia" refines="#transcriber-1">https://en.wikipedia.org/wiki/Wikisource</meta>
 		<meta property="role" refines="#transcriber-1" scheme="marc:relators">trc</meta>
-		<dc:contributor id="producer-1">PRODUCER</dc:contributor>
-		<meta property="file-as" refines="#producer-1">PRODUCER_SORT</meta>
-		<meta property="se:url.homepage" refines="#producer-1">PRODUCER_URL</meta>
+		<dc:contributor id="producer-1">Alex Cabal</dc:contributor>
+		<meta property="file-as" refines="#producer-1">Cabal, Alex</meta>
+		<meta property="se:url.homepage" refines="#producer-1">https://alexcabal.com</meta>
 		<meta property="role" refines="#producer-1" scheme="marc:relators">bkp</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">blw</meta>
 		<meta property="se:role" refines="#producer-1" scheme="marc:relators">cov</meta>
