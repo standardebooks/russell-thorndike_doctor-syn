@@ -33,6 +33,7 @@ p span.i1{
 	font-variant: small-caps;
 }
 
+q,
 [epub|type~="z3998:letter"] header p:last-child{
 	font-style: italic;
 }
