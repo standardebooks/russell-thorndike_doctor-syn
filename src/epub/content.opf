@@ -59,7 +59,7 @@
 		<dc:source>https://en.wikisource.org/wiki/Doctor_Syn</dc:source>
 		<dc:source>https://archive.org/details/doctorsynsmuggle00thor</dc:source>
 		<meta property="se:word-count">69919</meta>
-		<meta property="se:reading-ease.flesch">77.27</meta>
+		<meta property="se:reading-ease.flesch">77.47</meta>
 		<meta property="se:url.encyclopedia.wikipedia">https://en.wikipedia.org/wiki/Doctor_Syn</meta>
 		<meta property="se:url.vcs.github">https://github.com/standardebooks/russell-thorndike_doctor-syn</meta>
 		<dc:creator id="author">Russell Thorndike</dc:creator>
