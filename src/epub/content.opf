@@ -36,7 +36,7 @@
 		<meta property="title-type" refines="#subtitle">subtitle</meta>
 		<dc:title id="fulltitle">Doctor Syn: A Smuggler Tale of the Romney Marsh</dc:title>
 		<meta property="file-as" refines="#fulltitle">Doctor Syn</meta>
-		<meta property="title-type" refines="#fulltitle">extended</meta>
+		<meta property="title-type" refines="#fulltitle">expanded</meta>
 		<dc:subject id="subject-1">Smuggling -- Fiction</dc:subject>
 		<dc:subject id="subject-2">Smugglers -- Fiction</dc:subject>
 		<dc:subject id="subject-3">Romney Marsh (England: Marsh) -- Fiction</dc:subject>
